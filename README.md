@@ -1,3 +1,21 @@
+Autonomous Delivery Agent
+An AI-powered delivery agent that navigates 2D grid cities using various path planning algorithms. This project implements and compares multiple AI search strategies for autonomous package delivery with static and dynamic obstacles.
+
+Features
+Multiple Path Planning Algorithms: BFS, UCS, A*, and Local Search
+Dynamic Obstacle Avoidance: Real-time replanning for moving obstacles
+Terrain Cost Modeling: Different movement costs (1-3) for various terrains
+Fuel Constraints: Limited energy resources for realistic simulation
+Performance Metrics: Comprehensive tracking of efficiency measures
+4-Connected Movement: Up, down, left, right movements
+Visualization: ASCII-based environment display
+Algorithms Implemented
+Algorithm	Type	Strengths	Best Use Case
+BFS	Uninformed	Complete, simple	Small maps with uniform costs
+UCS	Uninformed	Optimal for weighted graphs	Medium maps with varying terrain
+A*	Informed	Optimal and efficient	Most static environments
+Local Search	Local	Fast, adaptable	Dynamic environments with obstacles
+Installation
 # Clone the repository
 git clone <repository-url>
 cd autonomous_delivery_agent
